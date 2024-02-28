@@ -1,0 +1,414 @@
+* {
+  box-sizing: border-box;
+}
+.section {
+  @media screen and (min-width: 580px) {
+    padding-bottom: 6rem;
+    padding-bottom: 6rem;
+  }
+  @media screen and (max-width: 1140px) {
+    padding: 2rem 0;
+  }
+  position: relative;
+  scroll-margin-top: 73px;
+  display: block;
+  border: 0;
+  margin: 0;
+  vertical-align: baseline;
+}
+.panel-content {
+  display: grid;
+  gap: 4rem;
+}
+.cd-header {
+  display: grid;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  grid-template-columns: repeat(1, 1fr);
+  margin: 0 auto;
+  max-width: 1152px;
+}
+.cd-container-cols-2 {
+  display: grid;
+  grid-column-gap: 32px;
+  grid-row-gap: 32px;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  margin: 0 auto;
+  max-width: 1152px;
+}
+.cd-cta-global {
+  @media screen and (min-width: 820px) {
+    padding-top: 1.5rem;
+  }
+  text-align: center;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;border: 0;
+  
+}
+.h2 {
+  text-wrap: pretty;
+  @media screen and (min-width: 320px) {
+    font-size: calc(27.25926px + 1.48148vw);
+  }
+  line-height: 1.2;
+  position: relative;
+  word-wrap: normal;
+  hyphens: manual !important;
+  font-weight: 600;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.none-h2 {
+  text-wrap: pretty;
+  @media screen and (min-width: 320px) {
+    font-size: calc(18.51852px + 1.48148vw);
+  }
+ line-height: 1;
+  position: relative;
+  word-wrap: normal;
+  hyphens: manual !important;
+  font-weight: 700;
+  display: block;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+.artist {
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  padding: 0;
+  border: 2px solid #252525;
+  border-radius: 16px;
+  
+  display: flex;
+  flex-direction: column;  
+  box-shadow: none; 
+  height: 43rem;
+}
+.article {
+  cursor: pointer;
+  overflow: hidden;
+  text-align: center;
+  background-color: #fff;
+  padding: 0;
+  border: 2px solid #252525;
+  border-radius: 16px;
+  
+  display: flex;
+  flex-direction: column;  
+  box-shadow: none; 
+  
+}
+
+
+.artist:hover {
+  transition: all 0.3s;
+  transition: all 0.3s ease;
+  transition-duration: 300ms;
+  box-shadow: 0 4px 0 #252525;
+  
+}
+.img {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border-radius: none;
+  /* margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px; */
+}
+.img-respond {
+  border-radius: 0;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  align-self: flex-end;
+  display: inline-block;
+  overflow: hidden;
+  height: auto;
+  max-width: 100%;
+  width: 100%;
+  overflow-clip-margin: content-box;
+  aspect-ratio: auto 1/1;
+}
+.cd-text-container {
+  padding-top: 0;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+.inner {
+  padding: 1.5rem;
+  display: flex;
+  flex: 1;
+  flex-basis: 0%;
+  flex-direction: column;
+  flex-grow: 1;
+  flex-shrink: 1;
+  justify-content: space-between;
+}
+.cd-testimonal-micro {
+  padding-top: 0.5rem;
+  margin: 0;
+}
+.cd-copy {
+}
+.cd-cta {
+  margin: 0 !important;
+  text-align: center;
+  padding-top: 2rem;
+  width: 100%;
+}
+/* .h5{
+    @media screen and (min-width:320px) {
+        font-size: calc(18.51852px+.46296vw);
+    }
+    font-size: calc(18.51852px+0.46296vw) !important;
+    hyphens: manual;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-wrap: pretty;
+    font-weight: 600;
+    line-height: 1.2;
+} */
+.h5 {
+  @media screen and (min-width: 320px) {
+    font-size: calc(18.51852px + 0.46296vw);
+  }
+  font-size: calc(18.51852px + 0.46296vw) !important;
+  hyphens: manual;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  white-space: pre-wrap;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+.text {
+  line-height: 1.2;
+}
+.p-s {
+  line-height: 1.4;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  word-wrap: normal;
+  hyphens: manual !important;
+  font-size: 1rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/* .a {
+  text-wrap: pretty;
+  align-items: center;
+  border: none;
+  border-radius: 0;
+  box-shadow: unset;
+  color: #252525;
+  display: inline-flex;
+  flex-flow: nowrap;
+  font-size: 1.125rem;
+  font-weight: 500;
+  gap: 0.55rem;
+  justify-content: center;
+  line-height: 1.2;
+  margin-top: 0;
+  min-width: auto;
+  opacity: 1;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+} */
+/* .a::before {
+  bottom: -4px;
+  content: "";
+  height: 2px;
+  left: 0;
+  position: absolute;
+  transform: scaleX(0);
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+  width: 100%;
+} */
+.after-class::after {
+    content: ""; /* Add this property */
+    background-image: url('https://www.brightlocal.com/wp-content/themes/brightlocal-2023/dist/images/icons-2023/general/icon-arrow-black.svg');
+    background-repeat: no-repeat;
+    height: 14px;
+    width: 19px;
+    position: absolute; /* Position the pseudo-element relative to the parent */
+    
+    top: 50%; /* Adjust this value to vertically center the pseudo-element */
+    transform: translateY(-50%); /* Adjust this if needed */
+    transition: transform 0.5s ease-out; /* No need for -webkit- prefix */
+}
+
+
+
+.button.button-std-green {
+    min-width: auto;
+    text-wrap: pretty;
+    align-items: center;
+    border: none;
+    border-radius: 0;
+    box-shadow: unset;
+    color: #252525;
+    display: inline-flex;
+    flex-flow: nowrap;
+    font-size: 1.125rem;
+    font-weight: 500;
+    gap: 0.55rem;
+    justify-content: center;
+    line-height: 1.2;
+    margin-top: 0;
+    min-width: auto;
+    opacity: 1;
+    overflow: visible;
+    padding: 0;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: all .3s ease;
+    width: auto;
+    z-index: 2;
+
+}
+.button.button-std-green::before{
+    bottom: -4px;
+    content: "";
+    height: 2px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+    width: 100%;
+}
+/* .button.button-std-green:hover::before{
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: bottom left;
+    transform-origin: bottom left;
+} */
+
+/* Apply styles to the ::before pseudo-element on hover */
+.button.button-std-green:hover::before,
+.button.button-std-green:focus::before {
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+  -webkit-transform-origin: bottom left;
+  transform-origin: bottom left;
+}
+
+
+
+.button.button-std-green::after{
+    background: url(https://www.brightlocal.com/wp-content/themes/brig…st/images/icons-2023/general/icon-arrow-black.svg)
+    no-repeat !important;
+  height: 14px;
+  position: relative;
+  right: 0;
+  transform: translateX(-0.1rem);
+  transition: transform 0.5s ease-out, -webkit-transform 0.5s ease-out;
+  width: 19px;
+}
+.button.button-std-green:hover::before{
+    -webkit-transform: scaleX(1);
+    -webkit-box-shadow: 0 0 0 #252525;
+    box-shadow: 0 0 0 #252525;
+    color: #252525;
+    transform: translate(0);
+    -webkit-transform: translateY(0);
+}
+
+.cd-test-inner {
+  background-color: #cff6d8;
+  border-radius: 0;
+  padding: 1.5rem;
+  position: relative;
+}
+.quote {
+  text-wrap: pretty;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 1.5;
+  position: relative;
+  z-index: 2;
+}
+.info {
+  align-items: center;
+  display: flex;
+  font-size: 0.875rem;
+  justify-content: center;
+  line-height: 1.2;
+  margin-top: 0.75rem;
+  position: relative;
+  text-align: left;
+  z-index: 2;
+}
+.author-image {
+  padding-right: 0.75rem;
+}
+.company {
+}
+.author-inner-image {
+  border: 0.5px solid #252525;
+  border-radius: 50%;
+  display: block;
+  height: auto;
+  width: 50px;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
+
+.custom-before::before {
+  content: "";
+  display: block;
+  height: 0;
+  margin-top: -0.1em;
+  width: 0;
+}
+
+.six-class::before{
+  background: url(https://www.brightlocal.com/wp-content/themes/brightlocal-2023/dist/images/globey-pointer-new.png) no-repeat;
+  background-size: contain;
+  content: "";
+  height: 290px;
+  position: absolute;
+  right: 3rem;
+  top: 3rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  width: 250px;
+}
+.bullet-green::before{
+  background: url(https://www.brightlocal.com/wp-content/themes/brightlocal-2023/dist/images/icons-2023/general/icon-tick-bullet-green.svg);
+    content: "";
+    height: 26px;
+    width: 26px;
+    position: absolute;
+    left: 0;
+    top: -1px;
+}

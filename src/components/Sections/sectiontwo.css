@@ -1,0 +1,15 @@
+.scr-ticker-container {
+    display: flex;
+    height: 5rem;
+    animation: ticker 10s linear infinite; /* Adjust the duration and timing function as needed */
+  }
+  
+  @keyframes ticker {
+    from {
+      transform: translateX(0); /* Start position */
+    }
+    to {
+      transform: translateX(-100%); /* End position */
+    }
+  }
+  
